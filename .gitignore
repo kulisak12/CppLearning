@@ -1,2 +1,25 @@
-# Ignore compiled executables
-*.exe
+## Project specific ignores
+
+# Output files
+*.mcfunction
+
+## Ignore Visual Studio files
+
+# Cache/options directory
+.vs
+
+# Solution files
+*.sln
+
+# Build results
+Release/
+Debug/
+
+# Project files
+*.vcxproj
+*.vcxproj.filters
+
+# Precompiled headers
+stdafx.h
+stdafx.cpp
+targetver.h
